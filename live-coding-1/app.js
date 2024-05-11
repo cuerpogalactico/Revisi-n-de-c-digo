@@ -17,6 +17,5 @@ function printArray(arr) {
     document.body.appendChild(ul);
 }
 
-// Ejemplo de uso (asumiendo que se llama después de bigWords):
 const filteredArray = bigWords('bocina', myArray);
 printArray(filteredArray);
